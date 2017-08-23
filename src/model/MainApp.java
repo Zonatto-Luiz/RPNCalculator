@@ -7,7 +7,6 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import view.CalculatorControler;
 
 import java.io.IOException;
 
@@ -31,8 +30,6 @@ public class MainApp extends Application {
         primaryStage.setTitle("RPN Calculator");
         try {
             Parent root = loader.load();
-
-            CalculatorControler controler = (CalculatorControler) loader.getController();
 
             Scene scene = new Scene(root);
             primaryStage.setScene(scene);
