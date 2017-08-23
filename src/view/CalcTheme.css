@@ -1,0 +1,28 @@
+.text-field{
+    -fx-background-radius: 5.0;
+	-fx-background-color: black;
+	-fx-border-color: black;
+	-fx-text-fill: white;
+	-fx-font-size: 18pt;
+	-fx-opacity: 1.0;
+	}
+
+.label{
+-fx-text-fill: white;
+}
+.grid{
+-fx-background-radius: 5.0;
+-fx-background-color: black;
+
+}
+
+.button{
+-fx-background-color: black;
+-fx-text-fill: white;
+}
+
+
+.hbox{
+-fx-border-width: 1;
+-fx-border-color: darkgray;
+}
